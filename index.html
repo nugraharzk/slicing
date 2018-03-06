@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
   <link href="lib/animate/animate.min.css" rel="stylesheet">
@@ -26,15 +26,6 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/mystyle.css">
-
-  <!-- =======================================================
-    Theme Name: Avilon
-    Theme URL: https://bootstrapmade.com/avilon-bootstrap-landing-page-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-
-  
 </head>
 
 <body>
@@ -69,7 +60,12 @@
           <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li><a href=""><b>Masuk</b></a></li>
-              <li><img src="img/indonesia.png" alt="" class="flag"></li>
+              <li class="menu-has-children"><a href="#"><img src="img/indonesia.png"></a>
+                <ul>
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">Espanola</a></li>
+                </ul>
+              </li>
             </ul>
           </nav>
         </div>
@@ -106,18 +102,18 @@
             <div class="dota col-xs-3"></div>
           </div>
 
-          <div class="row">
+          <div class="rowa">
             <div class="col-sm-3">
-              <a href="">Berita</a>
+              <a href="#more-features">Berita</a>
             </div>
             <div class="col-sm-3">
-              <a href="">Report</a>
+              <a href="#laporan">Report</a>
             </div>
             <div class="col-sm-3">
-              <a href="">Akses Cepat</a>
+              <a href="#team">Akses Cepat</a>
             </div>
             <div class="col-sm-3">
-              <a href="">Karir</a>
+              <a href="#connected">Karir</a>
             </div>
             <br><br>
           </div>
@@ -203,44 +199,44 @@
               dibeberkan cara klaim asuransi dari PT Asuransi Jasa Raharja. <br>
             </p>
 
-            <div class="row" style="padding: 20px; border: 1px solid #000;">
-              <div class="col-md-2" style="padding: 20px; border: 1px solid #000;">
-                <div class="col-sm-2" style="padding: 20px; border: 1px solid #000;">
+            <div class="row" style="padding: 20px;">
+              <div class="col-md-2" style="padding: 20px;">
+                <div class="col-sm-2" style="padding: 20px;">
                   img
                 </div>
-                <div class="col-sm-2" style="padding: 20px; border: 1px solid #000;">
+                <div class="col-sm-2" style="padding: 20px;">
                   img
                 </div>
               </div>
-              <div class="col-md-10" style="padding: 20px; border: 1px solid #000;">
+              <div class="col-md-10" style="padding: 20px;">
                 <h3 class="oke">Lengkapi Formulir</h3>
                 <p>Lengkapi formulir yang telah disediakan dan <br>
                 lengkapi data diri anda</p>
               </div>
 
-              <div class="col-md-2" style="padding: 20px; border: 1px solid #000;">
-                <div class="col-sm-2" style="padding: 20px; border: 1px solid #000;">
+              <div class="col-md-2" style="padding: 20px;">
+                <div class="col-sm-2" style="padding: 20px;">
                   img
                 </div>
-                <div class="col-sm-2" style="padding: 20px; border: 1px solid #000;">
+                <div class="col-sm-2" style="padding: 20px;">
                   img
                 </div>
               </div>
-              <div class="col-md-10" style="padding: 20px; border: 1px solid #000;">
+              <div class="col-md-10" style="padding: 20px;">
                 <h3 class="oke">Pastikan Dokumen Lengkap</h3>
                 <p>Pastikan dokumen dan bukti-bukti untuk <br>
                 klaim sah dan lengkap</p>
               </div>
 
-              <div class="col-md-2" style="padding: 20px; border: 1px solid #000;">
-                <div class="col-sm-2" style="padding: 20px; border: 1px solid #000;">
+              <div class="col-md-2" style="padding: 20px;">
+                <div class="col-sm-2" style="padding: 20px;">
                   img
                 </div>
-                <div class="col-sm-2" style="padding: 20px; border: 1px solid #000;">
+                <div class="col-sm-2" style="padding: 20px;">
                   img
                 </div>
               </div>
-              <div class="col-md-10" style="padding: 20px; border: 1px solid #000;">
+              <div class="col-md-10" style="padding: 20px;">
                 <h3 class="oke">Proses Pengajuan</h3>
                 <p>Dokumen akan diteliti dan proses pengajuan <br>
                 santunan akan dimulai.</p>
@@ -618,7 +614,7 @@
     Footer
   ============================-->
   <footer id="footer">
-    <div class="container" align="pull-left">
+    <div class="container wow fadeInUp" align="pull-left">
       <p>@2014  PT. Jasa Raharja (Persero). All rights reserved | by WEBARQ | English Version | Privacy Policy | Terms & Conditions</p>
     </div>
   </footer><!-- #footer -->
